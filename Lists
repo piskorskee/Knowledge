@@ -1,0 +1,14 @@
+ ## Lists:
+Lists are a multiple variables stored inside of one variable, for instance:
+spam = ['one', 1, 'two', 2.0, True]
+They can store strings, ints, floats and booleans.
+You can use loops like in, for and while to iterate, make logical statements or infinite loop in lists:
+for i in spam:
+  print(i)
+ ## Methods for lists
+You can also use method like range, len, nameOfList.index(value_u_re_lookin_for), append('val'), someList.insert(position, value)
+someList.remove('value), .sort() or .sort(reverse=True)
+ ## Anotha knowledge brotha
+Lists have indexes, like spam[0], spam[1]. U can take a slice of a list like spam[0,1]. U can take every second value of a list [0,-1,2]
+Indexes can be used to change variable inside of list like: spam[1] = 1.0
+U can concatenate or replicate a list. Conc: spam + spam or spam += [someValue]. Replicate: spam * 3
